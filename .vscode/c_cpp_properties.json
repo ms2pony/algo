@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "E:/ChromeDownloads/i686-6.4.0-release-win32-sjlj-rt_v5-rev0/mingw32/bin/g++.exe"
+        }
+    ],
+    "version": 4
+}

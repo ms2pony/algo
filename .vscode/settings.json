@@ -1,0 +1,11 @@
+{
+    "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+    "files.associations": {
+        "*.ejs": "html",
+        "hosts": "ssh_config",
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "stdio.h": "c"
+    }
+}
