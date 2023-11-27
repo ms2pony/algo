@@ -1,8 +1,9 @@
 // 40. 组合总和 II
+// 要点：排序；去重；某一个步骤选择的数不能一样
 // 组合问题，和排列问题的区别在于不分先后顺序
 var combinationSum2 = function (candidates, target) {
   // 为了去重
-  candidates.sort((a, b) => a - b)
+  candidates.sort((a, b) => a - b)  // 大于零，a在后，小于0，a在前
 
   let res = [], tmpRes = [],
     n = candidates.length
