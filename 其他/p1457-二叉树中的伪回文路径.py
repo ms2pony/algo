@@ -22,6 +22,7 @@ class Solution:
         counter[root.val] -= 1
         return res
 
+    # 位运算 或者 遍历的方法判断，这里使用遍历的方法
     def isPseudoPalindrome(self, counter: list[int]) -> bool:
         odd = 0
         for value in counter:
