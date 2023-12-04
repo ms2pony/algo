@@ -1,6 +1,6 @@
 // 数组扁平化，dfs，利用栈，迭代实现
 // 参考：https://github.com/sisterAn/JavaScript-Algorithms/issues/30 k 方法二：栈
-function diedai() {
+function iteration() {
   function flatten(arr) {
     let res = [],
       stack = [...arr]
