@@ -18,6 +18,7 @@ function leafPairs(root, k) {
     const l = f(node.left)
     const r = f(node.right)
 
+    // 更新一次结果
     for (let i = 1; i < k; i++) {
       // l[i]*r[k-i]，如果l[i] 或 r[k-i] 不存在，那么就视为0
       res += (l[i] ? l[i] : 0) * (r[k - i] ? r[k - i] : 0)
