@@ -1,3 +1,4 @@
+// 参考 https://github.com/sisterAn/JavaScript-Algorithms/issues/5
 // 扁平化，方法一，迭代法
 const flatten = () => {
   let arr = [[123, 123, 2, 4, 42, 1, 2, 5], [5, 8, 6, 54, 3, 9, 9, 3], 0, 7];
